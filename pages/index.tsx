@@ -1,18 +1,16 @@
+import { Inter } from "next/font/google";
+import Navbar from "./components/Navbar/Navbar";
+import HeroSection from "./components/HeroSection/HeroSection";
 
-import { Inter } from 'next/font/google'
-import Navbar from './components/Navbar/Navbar'
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col  ${inter.className}`}
-    >
-  <Navbar/>
-
-     
-
+    <main className={`flex min-h-screen flex-col  ${inter.className}`}>
+      <Navbar />
+      <section className="md:max-w-7xl md:mx-auto ">
+        <HeroSection />
+      </section>
     </main>
-  )
+  );
 }

@@ -7,7 +7,7 @@ interface Navbar {}
 
 const Navbar = (props: Navbar) => {
   return (
-    <nav className="flex items-center justify-between w-full p-5">
+    <nav className="flex items-center justify-between w-full p-5 bg-white">
       <div className="flex items-center gap-5">
         <div className="logo">
           <Link href={"/"}>
