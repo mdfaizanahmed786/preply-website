@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection/HeroSection";
 import Navbar from "@/components/Navbar/Navbar";
 import Resume from "@/components/Resume/Resume";
 import Tutor from "@/components/Tutor/Tutor";
+import Subjects from "@/components/Subjects/Subjects";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <Tutor/>
               <Resume/>
+              <Subjects/>
             </div>
           </div>
           <AboutTutor />

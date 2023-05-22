@@ -22,7 +22,7 @@ const Resume: React.FC<Resume> = () => {
           </p>
           <div className="flex gap-2 items-center">
             <AiFillCheckCircle className="h-5 w-5 text-green-400" />
-            <p className="text-green-400">Diploma Verified</p>
+            <p className="text-green-400 text-sm">Diploma Verified</p>
           </div>
         </div>
       </div>
