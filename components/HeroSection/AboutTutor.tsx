@@ -10,8 +10,8 @@ interface AboutTutor {}
 
 const AboutTutor = (props: AboutTutor) => {
   return (
-    <div className=" flex flex-col gap-3">
-      <div className="flex flex-col shadow-md space-y-6 w-fit">
+    <div className=" flex flex-col gap-4  sticky top-0">
+      <div className="flex flex-col bg-white shadow-md space-y-6 w-fit">
         <iframe
           width="350"
           height="200"
