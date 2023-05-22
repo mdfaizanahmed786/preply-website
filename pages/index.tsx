@@ -8,9 +8,11 @@ export default function Home() {
   return (
     <main className={`flex min-h-screen flex-col  ${inter.className}`}>
       <Navbar />
-      <section className="md:max-w-7xl md:mx-auto ">
+      <section className="max-w-[1300px] mx-auto ">
         <HeroSection />
+        
       </section>
+      
     </main>
   );
 }
