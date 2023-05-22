@@ -1,8 +1,9 @@
+import { Inter } from "next/font/google";
 import AboutTutor from "@/components/HeroSection/AboutTutor";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import Navbar from "@/components/Navbar/Navbar";
+import Resume from "@/components/Resume/Resume";
 import Tutor from "@/components/Tutor/Tutor";
-import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,8 +18,9 @@ export default function Home() {
         <div className="max-w-[1100px] mx-auto justify-between flex gap-8  ">
           <div className="flex-1">
             <HeroSection />
-            <div className="flex flex-col">
+            <div className="flex flex-col gap-4">
               <Tutor/>
+              <Resume/>
             </div>
           </div>
           <AboutTutor />

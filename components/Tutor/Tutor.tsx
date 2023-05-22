@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 interface Tutor {}
 
-const Tutor = (props: Tutor) => {
+const Tutor:React.FC<Tutor> = (props: Tutor) => {
   const [show, setShow] = useState(false);
   return (
     <div className="flex gap-5 flex-col  rounded-md shadow-lg p-5">
