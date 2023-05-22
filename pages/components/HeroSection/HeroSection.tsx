@@ -8,8 +8,9 @@ interface HeroSection {}
 
 const HeroSection = (props: HeroSection) => {
   return (
-    <div className="bg-white py-7 w-full">
-      <div className="flex items-start gap-36 w-full">
+ 
+    <div className="bg-white py-4 w-full">
+      <div className="flex items-start gap-48 w-full">
         <div className="flex gap-9 items-center  flex-1">
           <div className="relative">
             <Image
@@ -51,7 +52,7 @@ const HeroSection = (props: HeroSection) => {
 
                   <p>
                     Japanese{" "}
-                    <span className="bg-green-200 text-green-400 text-sm">
+                    <span className="bg-green-200 text-green-600 text-sm">
                       Native
                     </span>
                     .
@@ -64,6 +65,7 @@ const HeroSection = (props: HeroSection) => {
         <AboutTutor />
       </div>
     </div>
+
   );
 };
 
