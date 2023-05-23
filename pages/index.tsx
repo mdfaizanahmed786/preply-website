@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Inter } from "next/font/google";
 import MainBody from "@/components/MainBody/MainBody";
 import Query from "@/components/MainBody/Query/Query";
@@ -11,9 +12,12 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col  relative  ${inter.className}`}
     >
+      <Head>
+        <title>Preply: Learn Languages with Online Tutors.</title>
+      </Head>
       <Navbar />
 
-      <section className="bg-white   w-full py-5">
+      <section className="bg-white w-full py-5">
         <MainBody />
       </section>
 
