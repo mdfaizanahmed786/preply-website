@@ -56,6 +56,7 @@ const ScheduleTimeLine: React.FC<ScheduleTimeLine> = () => {
         <div className="date-style">
           <p>Sun</p>
           <p>28</p>
+     
         </div>
         <div className="date-style">
           <p>Mon</p>
@@ -71,7 +72,7 @@ const ScheduleTimeLine: React.FC<ScheduleTimeLine> = () => {
           </div>
         </div>
       </div>
-      <div></div>
+    
     </div>
   );
 };
