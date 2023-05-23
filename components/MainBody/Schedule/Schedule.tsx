@@ -1,3 +1,5 @@
+import FilledButton from "@/components/Button/FilledButton";
+import OutlineButton from "@/components/Button/OutlineButton";
 import React from "react";
 import { AiOutlineQuestionCircle } from "react-icons/ai";
 import {
@@ -5,6 +7,7 @@ import {
   IoIosArrowForward,
   IoMdArrowDropdown,
 } from "react-icons/io";
+import ScheduleTimeLine from "./ScheduleTimeLine";
 
 interface Schedule {}
 
@@ -36,15 +39,21 @@ const Schedule: React.FC<Schedule> = () => {
             <div>May 23–29, 2023</div>
           </div>
 
-          
-            <div className="flex ring-gray-300 px-4 cursor-pointer py-1 ring-1 items-center gap-2">
-              <p className="flex-1 text-gray-400">Asia/Damascus GMT +3:00</p>
-              <IoMdArrowDropdown className="text-gray-400 h-4 w-4" />
-            </div>
-        
+          <div className="flex ring-gray-300 px-4 cursor-pointer py-1 ring-1 items-center gap-2">
+            <p className="flex-1 text-gray-600">Asia/Damascus GMT +3:00</p>
+            <IoMdArrowDropdown className="text-gray-400 h-4 w-4" />
+          </div>
         </div>
-        <div></div>
-        <div></div>
+        <div>
+            <ScheduleTimeLine/>
+        </div>
+
+
+        <div className="w-full flex justify-center  ">
+          <div className="  w-2/5 ">
+            <FilledButton text="View Schedule" size='small' />
+          </div>
+        </div>
       </div>
     </div>
   );

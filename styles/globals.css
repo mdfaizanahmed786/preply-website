@@ -4,5 +4,8 @@
   .icon-size{
     @apply w-6 h-6;
   }
+  .timeline{
+    @apply h-1 bg-primary w-full
+  }
 }
 @tailwind utilities;
