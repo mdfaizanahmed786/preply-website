@@ -10,7 +10,7 @@ interface HeroSection {}
 const HeroSection = (props: HeroSection) => {
   return (
     <div className="flex items-start  w-full">
-      <div className="  flex flex-col gap-36 w-full flex-grow ">
+      <div className="  flex flex-col mb-40 w-full flex-grow ">
         <div className="flex gap-9 items-center  flex-1">
           <div className="relative">
             <Image
@@ -63,7 +63,7 @@ const HeroSection = (props: HeroSection) => {
           </div>
         </div>
 
-        <Navigation />
+       
       </div>
      
     </div>
