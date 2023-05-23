@@ -7,7 +7,7 @@ interface MoreTutors {}
 const MoreTutors: React.FC<MoreTutors> = () => {
   return (
     <div className="flex flex-col gap-4">
-      <p className="text-lg">Check more tutors who teach Japanese</p>
+      <p>Check more tutors who teach Japanese</p>
       <div className="flex flex-col gap-3">
         <div className="flex gap-2">
           <TutorLocation location="Japanese tutors in Starkville, MS" />

@@ -6,8 +6,8 @@ interface Goals {}
 
 const Goals: React.FC<Goals> = () => {
   return (
-    <div className="flex flex-col gap-5 items-start">
-      <p className="text-lg">
+    <div className="flex flex-col gap-5 items-start py-7">
+      <p>
         Find the best Japanese tutor for your learning goals
       </p>
       <div className="flex gap-4 items-center">

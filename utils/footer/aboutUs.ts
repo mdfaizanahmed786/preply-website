@@ -1,0 +1,1 @@
+export const aboutUs=['Whow we are', 'How it works', 'Preply reviews', 'Work at Preply!', 'Preply Global','Status', 'Preply Live', 'Preply Research and Studies', 'We stand with Ukraine', 'Media kit', 'Affiliate program' ]
