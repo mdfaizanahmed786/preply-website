@@ -16,7 +16,7 @@ interface SocialIcons {
 
 const AddtionalServices: React.FC<AddtionalServices> = () => {
   return (
-    <div className="grid grid-cols-4 gap-4 text-white-">
+    <div className="grid grid-cols-4 gap-9 text-white-">
       <div className="space-y-3 flex flex-col">
         <p className="text-white">Support</p>
         <p className="text-sm text-white hover:underline cursor-pointer">Need any help?</p>
