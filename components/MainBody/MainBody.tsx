@@ -7,6 +7,7 @@ import MoreInstructors from './MoreInstructors/MoreInstructors'
 import AboutTutor from '../HeroSection/AboutTutor'
 import MoreTutors from './MoreTutors/MoreTutors'
 import Goals from './MoreTutors/Goals'
+import Schedule from './Schedule/Schedule'
 interface MainBody{}
 
 const MainBody: React.FC<MainBody> = () => {
@@ -17,6 +18,7 @@ const MainBody: React.FC<MainBody> = () => {
       <div className="flex flex-col gap-9">
         <div className="flex flex-col gap-4">
           <Tutor />
+          <Schedule/>
           <Resume />
           <Subjects />
         </div>
