@@ -5,6 +5,7 @@ import Resume from './Resume/Resume'
 import Subjects from './Subjects/Subjects'
 import MoreInstructors from './MoreInstructors/MoreInstructors'
 import AboutTutor from '../HeroSection/AboutTutor'
+import MoreTutors from './MoreTutors/MoreTutors'
 interface MainBody{}
 
 const MainBody: React.FC<MainBody> = () => {
@@ -19,6 +20,7 @@ const MainBody: React.FC<MainBody> = () => {
           <Subjects />
         </div>
         <MoreInstructors />
+        <MoreTutors/>
       </div>
     </div>
     <AboutTutor />
