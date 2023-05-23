@@ -17,7 +17,7 @@ export default function Home() {
         <MainBody />
       </section>
 
-      <Footer/>
+      <Footer />
 
       <Query />
     </main>
